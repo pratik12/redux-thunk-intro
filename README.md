@@ -4,8 +4,9 @@ Simple React-Redux example with async/sync actions using  Redux Thunk middleware
 ### Usage
 
 ```
-git clone https://github.com/Lavitr/ReduxAsyncActions.git
-cd ReduxAsyncActions 
+This repo is based off this git clone https://github.com/Lavitr/ReduxAsyncActions.git
+Extending the application to have tests around mocking fetch and redux store.
+cd redux-thunk-intro 
 npm install
 npm start
 open http://localhost:8080  (should start automatically )
@@ -25,4 +26,7 @@ open http://localhost:8080  (should start automatically )
 * Webpack
 * [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
 * [babel-loader](https://github.com/babel/babel-loader)
+* jest
+* redux-mock-store
+* redux-thunk
 
